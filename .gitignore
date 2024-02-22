@@ -1,0 +1,10 @@
+node_modules
+.idea
+.git
+*.iml
+.project
+.classpath
+test-output*
+logs
+bin
+.gitconfig

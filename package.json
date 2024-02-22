@@ -1,0 +1,26 @@
+{
+  "name": "web-ui-javascript",
+  "version": "1.0.0",
+  "description": "Web UI framework implementation using JavaScript and NodeJS platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Pavel Gouchtchine",
+  "license": "ISC",
+  "type": "module",
+  "jest": {
+    "testMatch": [
+      "**/*test.js"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "babel-jest": "^29.7.0",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "chromedriver": "^121.0.2",
+    "selenium-webdriver": "^4.17.0"
+  }
+}
